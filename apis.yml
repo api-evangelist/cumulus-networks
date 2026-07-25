@@ -1,8 +1,26 @@
 aid: cumulus-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cumulus-networks.png
 name: Cumulus Networks
-description: Cumulus Networks is a company surfaced as a portfolio company of a16z, battery-ventures,
-  wing-venture-capital and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: 'Cumulus Networks was a computer networking company founded in 2010 that
+  developed Cumulus Linux, an open Linux-based network operating system for bare-metal
+  and white-box data-center switches, along with NetQ, a network operations and telemetry
+  platform. It was a pioneer of open, disaggregated networking, letting operators run
+  a standard Linux distribution on commodity switching hardware. NVIDIA acquired Cumulus
+  Networks in May 2020, and the products are now part of NVIDIA''s Ethernet switching
+  and networking software line. The former cumulusnetworks.com and docs.cumulusnetworks.com
+  domains now redirect to NVIDIA''s networking documentation. Surfaced as a portfolio
+  company of a16z, Battery Ventures, and Wing Venture Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/cumulus-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Networking
+- Network Operating System
+- Linux
+- Data Center
+- Switching
+- Open Networking
+- Telemetry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cumulus-networks-domain-security.yml
 - type: Website
-  url: http://cumulusnetworks.com/
+  url: https://www.nvidia.com/en-us/networking/ethernet-switching/
+- type: Documentation
+  url: https://docs.nvidia.com/networking-ethernet-software/
+- type: GitHubOrganization
+  url: https://github.com/CumulusNetworks
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
