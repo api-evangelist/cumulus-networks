@@ -12,15 +12,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cumulus-networks.png
 name: Cumulus Networks
-description: 'Cumulus Networks was a computer networking company founded in 2010 that
-  developed Cumulus Linux, an open Linux-based network operating system for bare-metal
-  and white-box data-center switches, along with NetQ, a network operations and telemetry
-  platform. It was a pioneer of open, disaggregated networking, letting operators run
-  a standard Linux distribution on commodity switching hardware. NVIDIA acquired Cumulus
-  Networks in May 2020, and the products are now part of NVIDIA''s Ethernet switching
-  and networking software line. The former cumulusnetworks.com and docs.cumulusnetworks.com
-  domains now redirect to NVIDIA''s networking documentation. Surfaced as a portfolio
-  company of a16z, Battery Ventures, and Wing Venture Capital.'
+description: Cumulus Networks was a computer networking company founded in 2010 that developed Cumulus Linux, an
+  open Linux-based network operating system for bare-metal and white-box data-center switches, along with NetQ,
+  a network operations and telemetry platform. It was a pioneer of open, disaggregated networking, letting operators
+  run a standard Linux distribution on commodity switching hardware. NVIDIA acquired Cumulus Networks in May 2020,
+  and the products are now part of NVIDIA's Ethernet switching and networking software line. The former cumulusnetworks.com
+  and docs.cumulusnetworks.com domains now redirect to NVIDIA's networking documentation. Surfaced as a portfolio
+  company of a16z, Battery Ventures, and Wing Venture Capital.
 url: https://raw.githubusercontent.com/api-evangelist/cumulus-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -32,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-21'
 tags:
 - Company
 - Networking
@@ -58,6 +56,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/nvidia/
+  name: Nvidia
+  x-relationship: acquisition
+  x-generated-by: nvidia-family:2026-08-21
 - type: DomainSecurity
   url: security/cumulus-networks-domain-security.yml
 - type: Website
@@ -71,3 +74,5 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: nvidia
+x-relationship: acquisition
