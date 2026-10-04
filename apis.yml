@@ -42,15 +42,19 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-08-21'
+x-docs-platform: swagger-ui
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-24
 tags:
 - Company
 - Networking
 - Network Operating System
 - Linux
-- Data-Center
+- Data Center
 - Switching
 - Open Networking
 - Telemetry
+- Acquired
 tags_raw:
 - Company
 - Networking
@@ -60,6 +64,8 @@ tags_raw:
 - Switching
 - Open Networking
 - Telemetry
+- Data-Center
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -87,3 +93,7 @@ x-enrichment:
   note: backfilled from .gitignore signal + verified work evidence
 x-parent: nvidia
 x-relationship: acquisition
+x-status: acquired
+x-acquired-by: nvidia
+x-acquired-year: 2020
+x-status-source: https://cumulusnetworks.com 301 -> https://www.nvidia.com/en-us/networking/ethernet-switching/ (checked 2026-09-24); NVIDIA completed the Cumulus acquisition 2020
